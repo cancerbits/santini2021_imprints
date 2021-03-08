@@ -1,0 +1,33 @@
+n_gl_dmr,n_som_dmr,use_gl_dmr,use_somatic_dmr,paternal,cpg_island,locus_name,icr_name,chrom,start,end,size_bp,allele_imprinted,germline,info
+1,,1,0,,,Liz1/Zdbf2,Liz,chr1,63200357,63200675,318,m,y,not in candidates although signal looks good
+,1,0,1,*,,Gpr1/Zdbf2,DMR1 amplicon3,chr1,63257407,63257858,451,p,n,
+,2,0,1,*,,Gpr1/Zdbf2,DMR1 amplicon 7,chr1,63257407,63257858,451,p,n,
+,3,0,1,*,,Gpr1/Zdbf2,DMR2 amplicon 11,chr1,63257407,63257858,451,p,n,
+2,,1,0,,*,Mcts2/H13,Mcts2,chr2,152686755,152687275,520,m,y,
+3,,1,0,,*,Nnat,Nnat,chr2,157560050,157561662,1612,m,y,
+,4,0,1,,*,Nesp,\N,chr2,174284269,174286690,2421,p,n,
+4,,1,0,,*,Nespas,\N,chr2,174295707,174300981,5274,m,y,
+5,,1,0,,*,Commd1,U2af1-rs1,chr11,22971895,22973136,1241,m,y,
+6,,1,0,,*,Gnas,Gnasxl et 1A,chr2,174326930,174329007,2077,m,y,
+7,,1,0,,*,Peg10,Peg10,chr6,4747209,4748300,1091,m,y,
+8,,1,0,,*,Mest (Peg1),PEG1,chr6,30736488,30739335,2847,m,y,
+9,,1,0,,*,Nap1L5,Nap1L5,chr6,58906696,58907062,366,m,y,
+10,,1,0,,*,Zim2 (Peg3),PEG3,chr7,6729433,6730510,1077,m,y,
+11,,1,0,,,Snrpn,Snrpn,chr7,60004992,60005415,423,m,y,
+,5,0,1,,*,Ndn,\N,chr7,62348252,62348745,493,m,n,
+12,,1,0,,*,Inpp5f,Inpp5f-v2,chr7,128687968,128688584,616,m,y,
+13,,1,0,*,,H19/Igf2,\N,chr7,142580263,142582695,2432,p,y,
+14,,1,0,,*,Kcnq1,KvDMR,chr7,143295309,143295849,540,m,y,
+15,,1,0,,*,Kcnq1ot1,Ex1_Kcnq1ot1,chr7,143296095,143297095,1000,m,y,
+,6,0,1,*,*,Cdkn1c ,,chr7,143459053,143461485,2432,p,n,
+24,0,1,0,*,,Rasgrf1,Rasgrf1,chr9,89876812,89885505,8693,p,y,set to "y" as in WAMINDEX (marked n* in Feil list)
+16,,1,0,,*,Plagl1 (Zac1),Plagl1 (Zac1),chr10,13090437,13091326,889,m,y,
+17,,1,0,,*,Grb10,Grb10,chr11,12025515,12026351,836,m,y,
+18,,1,0,*,*,Dlk1,Ig-DMR,chr12,109526740,109529760,3020,p,y,
+,8,0,1,*,,Meg3,Meg3_pro,chr12,109539990,109543190,3200,p,n,
+19,,1,0,,*,KcnK9 (Peg13),Peg13,chr15,72808840,72810685,1845,m,y,
+20,,1,0,,*,Slc38a4,Scl38a4,chr15,97054197,97055313,1116,,y,y added by ML
+21,,1,0,,*,Igf2r,airn DMR,chr17,12741297,12742707,1410,m,y,
+,9,0,1,,*,Igf2r promoter,,chr17,12769042,12770027,985,p,n,
+22,,1,0,,*,Impact,Impact,chr18,12971749,12974325,2576,m,y,
+23,,1,0,,,Cdh15,Cdh15,chr8,122864539,122865917,1378,m,y,PMID: 22902559

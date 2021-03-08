@@ -1,0 +1,20 @@
+sample_label,sample_label_short,passage,library_size,library_insert_size,sample_name,bsf_name,data_source,sample_group,sample_group_old,organism,ploidy,sex,age,tissue,library,read_type,read_length,flowcell,lane
+wt_ESC_E14_male,ES-m1,16,330,210,wt_ESC_E14_male,wt_male_ES_cell_E14male_2_S24858,BSF,ESC_male_diploid,wt,mouse,diploid,M,NA,embryonic stem cell,EG,paired,75,BSF_0326_HHYG3BBXX,4
+haploid_parthenogenote_ESC_H129,pES4,12,330,210,haploid_parthenogenote_ESC_H129,haploid_parthenogenote_ESC_H129_1_S24859,BSF,ESC_partheno_haploid,haploid_partheno,mouse,haploid,P,NA,embryonic stem cell,EG,paired,75,BSF_0326_HHYG3BBXX,4
+haploid_androgenote_ESC_A6GFP,aES1,10,330,210,haploid_androgenote_ESC_A6GFP,haploid_androgenote_ESC_A6GFP_S24860,BSF,ESC_andro_haploid,haploid_andro,mouse,haploid,A,NA,embryonic stem cell,EG,paired,75,BSF_0326_HHYG3BBXX,4
+S_1n_andro_1,Andro 1,,330,210,S_1n_andro_1,S_1n_andro_1_S24862,BSF,Embryo_andro,1n_andro,mouse,haploid,A,E5,embryo,EG,paired,75,BSF_0326_HHYG3BBXX,4
+S_1n_andro_2,Andro 2,,330,210,S_1n_andro_2,S_1n_andro_2_S24863,BSF,Embryo_andro,1n_andro,mouse,haploid,A,E5,embryo,EG,paired,75,BSF_0326_HHYG3BBXX,4
+ICSI_1,ICSI 1,,330,210,ICSI_1,ICSI_1_S24864,BSF,Embryo_biparental,icsi,mouse,diploid,NA,E4.5,embryo,EG,paired,75,BSF_0326_HHYG3BBXX,4
+ICSI_2,ICSI 2,,330,210,ICSI_2,ICSI_2_S24865,BSF,Embryo_biparental,icsi,mouse,diploid,NA,E4.5,embryo,EG,paired,75,BSF_0326_HHYG3BBXX,4
+S_1n_partheno_1,Partheno 1,,330,210,S_1n_partheno_1,S_1N_partheno_1_S24866,BSF,Embryo_partheno,1n_partheno,mouse,haploid,P,E5,embryo,EG,paired,75,BSF_0326_HHYG3BBXX,4
+S_1n_partheno_2,Partheno 2,,330,210,S_1n_partheno_2,S_1N_partheno_2_S24867,BSF,Embryo_partheno,1n_partheno,mouse,haploid,P,E5,embryo,EG,paired,75,BSF_0326_HHYG3BBXX,4
+A11,aES3,10,330,210,A11,A11_S29301,BSF,ESC_andro_haploid,A11,mouse,haploid,A,NA,embryonic stem cell,EG,paired,75,BSF_0369_HLWLYBBXX,0
+A7_P8,aES2,8,330,210,A7_P8,A7_P8_S29300,BSF,ESC_andro_haploid,A7_P8,mouse,haploid,A,NA,embryonic stem cell,EG,paired,75,BSF_0369_HLWLYBBXX,0
+Hrex,pES1,12,330,210,Hrex,Hrex_S29299,BSF,ESC_partheno_haploid,Hrex,mouse,haploid,P,NA,embryonic stem cell,EG,paired,75,BSF_0369_HLWLYBBXX,0
+Mekl_2_fem_P8_C_ER,ES-f3,8,330,210,Mekl_2_fem_P8_C_ER,Mekl_2_fem_P8_C_ER_S29305,BSF,ESC_female_diploid,Mekl_2_fem_P8_C_ER,mouse,diploid,F,NA,embryonic stem cell,EG,paired,75,BSF_0369_HLWLYBBXX,0
+nu_nu_kidney,Kidney,,330,210,nu_nu_kidney,nu_nu_kidney_S29308,BSF,Kidney_somatic,nu_nu_kidney,mouse,,M,NA,kidney,EG,paired,75,BSF_0369_HLWLYBBXX,0
+P1_P8,pES2,8,330,210,P1_P8,P1_P8_S29302,BSF,ESC_partheno_haploid,P1_P8,mouse,haploid,P,NA,embryonic stem cell,EG,paired,75,BSF_0369_HLWLYBBXX,0
+Rex_hom_fem_P17,ES-f1,17,330,210,Rex_hom_fem_P17,Rex_hom_fem_P17_S29307,BSF,ESC_female_diploid,Rex_hom_fem_P17,mouse,diploid,F,NA,embryonic stem cell,EG,paired,75,BSF_0369_HLWLYBBXX,0
+S_129_B6_fem_P17,ES-f2,17,330,210,S_129_B6_fem_P17,S_129_B6_fem_P17_S29306,BSF,ESC_female_diploid,S_129_B6_fem_P17,mouse,diploid,F,NA,embryonic stem cell,EG,paired,75,BSF_0369_HLWLYBBXX,0
+S_129_male_P8,ES-m2,8,330,210,S_129_male_P8,S_129_male_P8_S29298,BSF,ESC_male_diploid,S_129_male_P8,mouse,diploid,M,NA,embryonic stem cell,EG,paired,75,BSF_0369_HLWLYBBXX,0
+T8,pES3,8,330,210,T8,T8_S29303,BSF,ESC_partheno_haploid,T8,mouse,haploid,P,NA,embryonic stem cell,EG,paired,75,BSF_0369_HLWLYBBXX,0

@@ -1,0 +1,31 @@
+# pyPiper / looper config file
+
+metadata:
+  output_dir: $OUT/meth_imprint
+  results_subdir: results_pipeline
+  submission_subdir: submission
+  pipelines_dir: $TOOLS/pipelines
+
+data_sources:
+  BSF: "/scratch/lab_bsf/samples/{flowcell}/{flowcell}_{lane}_samples/{flowcell}_{lane}#{bsf_name}.bam"
+
+subprojects:
+  wgbs:
+    metadata:
+      sample_annotation: samples_wgbs.csv
+      merge_table: merges_wgbs.csv
+
+genomes:
+  mouse: mm10
+
+transcriptomes:
+  mouse: mm10_cdna
+
+pipeline_config:
+  rrbs: null
+
+compute:
+  submission_template: slurm_template.sub
+  submission_command: sbatch
+
+

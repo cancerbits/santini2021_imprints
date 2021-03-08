@@ -1,0 +1,8 @@
+*.gz
+*.pdf
+*.Rhistory
+*.Rdata
+*.png
+nohup.out
+results
+data/raw

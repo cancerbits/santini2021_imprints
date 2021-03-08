@@ -11,7 +11,7 @@ The folder structure is organized as follows:
 
 * `metadata/` - sample metadata and config parameters
 * `src/` - data analysis code
-* `data/` - preprocessed data 
+* `data/` - additional preprocessed input data 
 
 ## Links:
 
