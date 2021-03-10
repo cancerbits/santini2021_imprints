@@ -1,0 +1,17 @@
+The index for mapping was contructed based on assembly and annotation files downloaded from ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/ using the following STAR command:
+STAR --runMode genomeGenerate --runThreadN 4 --genomeDir ./index/ --genomeFastaFiles GRCm38.primary_assembly.genome.fa --sjdbGTFfile gencode.vM11.primary_assembly.annotation.gtf --sjdbOverhang 100
+Mapping of reads to the index and merging reads from different sequencing lanes was done using the provided script process_reads.sh.
+
+Allelome.Pro was downloaded from https://sourceforge.net/projects/allelomepro/files/Allelome_PRO.zip/download and annotation and SNP files were constructed as described in Andergassen et al. (2015, DOI: 10.1093/nar/gkv727). 
+The annotations were extracted from the downloaded ncbiRefSeq annotations (http://hgdownload.cse.ucsc.edu/goldenPath/mm10/database/ncbiRefSeq.txt.gz) and regions smaller 100 bp and overlapping regions we excluded as our sequencing data was not strand specific and therefore these regions could not be assigned to one of the genes confidently. The annotations are provided in the file: anno_bigger100_nonoverlap.bed.
+The SNP file was constructed using a helper script provided with Allelome.PRO with the command and selecting C57BL6NJ as first strain and CASTEiJ as second strain:
+
+sh helperscripts/createSNPbedfile.sh mgp.v3.snps.rsIDdbSNPv137.vcf snp_s.bed
+
+The mgp.v3.snps.rsIDdbSNPv137.vcf file was downloaded from ftp://ftp-mouse.sanger.ac.uk/REL-1303-SNPs_Indels-GRCm38/. 
+Allelome.PRO was then run in three seperate runs so that all samples from forward and reverse cross were included in at least one run. The first run includes samples 1 and 2 from both forward and reverse cross, the second rund includes samples 3 and 1 from the forward cross and samples 3 nd 5 from the reverse cross and the third run includes samples 1 and 2 from the forward cross and samples 7 and 5 from the reverse cross. The corresponding config files are named config_run1.txt, config_run2.txt and config_run3.txt. Allelome.Pro was then used to retrieve strain specific counts per sample running: sh allelome_pro.sh -c config_run1.txt with all three config files.
+
+The provided R script RNA_seq_imprinting.R reads in the intermediate results (strain specific counts) from the debug/read_count_per_SNP.txt file from the corresponding results folders for all 3 runs and provides and overview of the analysis steps included. It also reads in external data of known imprinted genes and manually curated information for some of the known imprinted genes. All files that are needed to run the script are included in the files_R_script folder.
+
+
+
