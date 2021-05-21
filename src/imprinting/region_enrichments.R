@@ -62,8 +62,6 @@ lolaResAll <- lolaResAll[filename%in%selFiles,]
 selTerms <- lolaResAll[!grepl("ref|rnd",userSet) & cellType=="Embryonic stem cell" & filename%in%selFiles & sig==T,][,.(s=absmax(10*log10(get(filtBy)))),by=term][order(s),term]  
 
 selRowsFocus <-  lolaResAll[, unique(userSet)]
-# ... exclude terms that are also strongly enriched in promoters (independent of imprinting):
-enrichInPromo <- dcast(lolaResAll, term~gsub("_\\d+","",userSet), value.var="log2odds", fun.aggregate=max)[pmax(`DMR-C1`,`DMR-C2`,`DMR-C3`,`DMR-C4`,`DMR-C5`)<ref, .(`DMR-C1`,`DMR-C2`,`DMR-C3`,`DMR-C4`,`DMR-C5`,pmax(`DMR-C1`,`DMR-C2`,`DMR-C3`,`DMR-C4`,`DMR-C5`),ref,term)]
 selTermsFocus <- selTerms
 
 # Fix another mislabelling:
