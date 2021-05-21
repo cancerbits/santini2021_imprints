@@ -1,3 +1,6 @@
+# Allele-specific RNA-seq analysis
+# Author: Fabian Titz-Teixeira
+
 # Abort script on any error
 set -e
 set -o pipefail

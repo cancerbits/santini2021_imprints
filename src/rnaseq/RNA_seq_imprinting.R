@@ -1,3 +1,6 @@
+# Allele-specific RNA-seq analysis
+# Author: Fabian Titz-Teixeira
+
 require(ggplot2)
 require(ggforce)
 require(DESeq2)
