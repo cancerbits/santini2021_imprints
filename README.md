@@ -1,4 +1,4 @@
-# Supplementary code repository for:Novel imprinted genes exemplify predominantly H3K27me3-dependent imprinting in mouse blastocysts
+# Supplementary code repository for: Novel imprinted genes exemplify predominantly H3K27me3-dependent imprinting in mouse blastocysts
 Laura Santini<sup>1,\*</sup>, Florian Halbritter<sup>2,3,\*</sup>, Fabian Titz-Teixeira<sup>5</sup>, Toru Suzuki<sup>4</sup>, Maki Asami<sup>4</sup>, Xiaoyan Ma<sup>6</sup>, Julia Ramesmayer<sup>1</sup>, Andreas Lackner<sup>1</sup>, Nick Warr<sup>7</sup>, Florian Pauler<sup>8</sup>, Simon Hippenmeyer<sup>8</sup>, Ernest Laue<sup>6</sup>, Matthias Farlik<sup>3</sup>, Christoph Bock<sup>3,9</sup>, Andreas Beyer<sup>5</sup>, Anthony C. F. Perry<sup>4,#</sup> and Martin Leeb<sup>1,#</sup>
 
 ## Abstract:
@@ -16,4 +16,4 @@ The folder structure is organized as follows:
 ## Links:
 
 * WGBS and RNA-seq data: <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152106">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152106</a>
-* Paper: <i>TODO: add doi</i>
+* Paper: <a href="https://doi.org/10.1038/s41467-021-23510-4">https://doi.org/10.1038/s41467-021-23510-4</a>
